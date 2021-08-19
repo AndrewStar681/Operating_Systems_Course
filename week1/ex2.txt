@@ -1,0 +1,89 @@
+    1  man man
+    2  man ls
+    3  nano f1.txt
+    4  cat f1.txt 
+    5  cat f1.txt | cat -e
+    6  less f1.txt 
+    7  less *.*
+    8  grep *
+    9  greb f1.txt 
+   10  grep f1.txt 
+   11  cat f1.txt 
+   12  man grep
+   13  ls > list.txt
+   14  cat list.txt 
+   15  sort * > list2.txt
+   16  sort f1.txt list.txt > list2.txt
+   17  ls
+   18  cat list2.txt 
+   19  sort list.txt f1.txt > list3.txt
+   20  cat list3.txt 
+   21  cat list.txt
+   22  rm list*.*
+   23  ls
+   24  clear
+   25  nano f1.txt 
+   26  sort -r f1.txt > sort_f1.txt
+   27  cat sort_f1.txt 
+   28  ls | sort -r | tail -n 3
+   29  ps
+   30  man ps
+   31  mkdir gnom
+   32  rm gnom/
+   33  cd gnom
+   34  ls
+   35  ls -la
+   36  cd ..
+   37  rm gnom
+   38  rm -r gnom/
+   39  ls
+   40  vim
+   41  sudo apt install vim
+   42  nano &
+   43  vim ~/.vimrc
+   44  bg %
+   45  nano &
+   46  bg %
+   47  clear
+   48  gedit
+   49  mkdir week1
+   50  ls
+   51  mkdir week1
+   52  ls
+   53  clear
+   54  cd ~
+   55  pwd
+   56  mkdir week1
+   57  ls
+   58  clear
+   59  ls /usr/bin | grep gcc | sort -r > ~/week1/ex1.txt
+   60  ls
+   61  cd week1/
+   62  ls
+   63  cat ex1.txt 
+   64  ls
+   65  nano ex3.sh
+   66  sh ex3.sh 
+   67  cat ex3.sh 
+   68  gcc
+   69  sudo apt install gcc
+   70  pwd
+   71  vim main.c
+   72  gcc main.c -o ex4
+   73  ./ex4 
+   74  ./ex4 | cat -E
+   75  ./ex4 | cat -e
+   76  ls
+   77  make
+   78  gcc -Wall -Wextra -Werror main.c 
+   79  ls
+   80  ./a.out 
+   81  rm a.out 
+   82  a.
+   83  ex4
+   84  ls
+   85  cat ex4
+   86  clear
+   87  echo "hell and stars"
+   88  ls | sort
+   89  history > ex2.txt
