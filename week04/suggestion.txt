@@ -1,0 +1,5 @@
+Exercise 2.
+
+You can excute ex2.sh file several times to see how it prints the tree
+Use:
+$>bash ex2.sh
