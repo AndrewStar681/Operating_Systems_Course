@@ -1,0 +1,5 @@
+To be honest, I forgot about the task.
+
+But in the exercise, I get a message that it is unknown refernce pthread_create.
+
+And I do not understand it.
