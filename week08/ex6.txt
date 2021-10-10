@@ -1,0 +1,7 @@
+As a machine has 16-bit virtual addresses,
+then the memory we can use is 2^16 bytes
+Page takes 8 KB = 8 * 1 KB = 8 * 2^10 bytes = 2^13 bytes
+The number of entries are needed for a single-level linear pages table is:
+2^16 (memory) / 2^13 (pages) = 2^3 = 8 
+
+Answer: 8 entries

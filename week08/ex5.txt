@@ -1,0 +1,4 @@
+Physical addressing is about actual addres in RAM.
+But virtual addressing is about method to manipulate the memory in order to be able to execute, store and etc. more programs that can be actually.
+
+So virtual memory is very useful for the user.
