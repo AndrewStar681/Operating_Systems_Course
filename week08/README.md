@@ -14,9 +14,4 @@ that's why I have two numbers: at the beginning of the program + till the check
 
 Am i right or there is something that can be more clear?
 
-## EX6
-
-16-bit virtual addresses: It is 2^16 bits or bytes?
-Just I remember from the lab it is bits, but it seems like fault in my mind.
-
 ## Have a good day!!!
