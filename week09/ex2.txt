@@ -1,0 +1,4 @@
+we replace all '3's with '4' which changed the priority to replace pages.
+so in that case the ratio is greater.
+ex1_1.txt - first case
+ex2_2.txt - second case (ratio increased)
