@@ -1,0 +1,6 @@
+All found links in current direction to the file.txt:
+./_ex2.txt
+
+Remove all links to the file.txt:
+
+Check if there are links to the file.txt:
