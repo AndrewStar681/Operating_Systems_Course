@@ -16,16 +16,16 @@ int main() {
     int keyboard = open("/dev/input/by-path/platform-i8042-serio-0-event-kbd", O_RDONLY);
     struct input_event ievent;
 
-    
-    read(keyboard, &ievent, sizeof(ievent));
-    while (1) {
+    while (1)
+    {
+        read(keyboard, &ievent, sizeof(ievent));
         if(ievent.type == EV_KEY && ievent.value == 0) {
             keysPressed[(int) ievent.code] = 0;
             fprintf(out, "RELEASED 0x%04x (%i)\n", ievent.code, ievent.code);
         }
         if(ievent.type == EV_KEY && ievent.value == 1) {
             keysPressed[(int) ievent.code] = 1;
-            fprintf(output, "PRESSED 0x%04x (%i)\n", ievent.code, ievent.code);
+            fprintf(out, "PRESSED 0x%04x (%i)\n", ievent.code, ievent.code);
         }
         for (int i = 0; i < 300; i++) {
             if (keysPressed[46] == 1 && keysPressed[30] == 1 && keysPressed[25] == 1) {
