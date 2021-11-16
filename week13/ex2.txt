@@ -1,0 +1,17 @@
+#1
+
+I think that PREVENTION may be the first step in 
+limited resources'environment
+
+#2
+
+If we have a lot of resources, we can try AVOIDANCE
+just to identify if there is a cycles which is only
+one conditon for deadlock to exist.
+And after we can check if it is realy deadlock-cycle or not
+
+#3
+
+If no one of methods above didn't worked, we can
+use the method DETECT_AND_RECOVER (RECOVERY)
+which will simply kill proccesses are in deadlock.
